@@ -1,2 +1,2 @@
-# Weather_App
-Weather_App -JS
+# Weather-App
+Weather App -JS
