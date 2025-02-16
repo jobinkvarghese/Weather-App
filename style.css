@@ -52,3 +52,55 @@ body{
     width:16px;
     margin-top:5px ;
 }
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top:-10px;
+}
+.details{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width:40px;
+    margin-right: 10px;
+}
+.humidity,.wind{
+    font-size: 28px;
+    margin-top: -6px;
+}
+.weather{
+    display: none;
+}
+.errorMsg{
+    text-align: left;
+    margin-left: 12px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: rgb(245, 83, 83);
+    font-weight:500;
+    display: none;
+}
+.title h1{
+    color:rgba(255, 255, 255, 0.797);
+    text-align: center;
+    margin-top:60px;
+    margin-bottom: -80px;
+}
